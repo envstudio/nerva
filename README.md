@@ -1,2 +1,30 @@
 # Auto Install Nerva Mining
-Change NV_ADDRESS and Core 
+
+
+Tutorial how to use
+for ubuntu only
+
+run with root
+
+
+#1
+wget https://raw.githubusercontent.com/envstudio/nerva/master/install.sh
+chmod +x install.sh
+./install.sh NV_ADDRESS COre
+
+or manual
+
+#2
+wget https://raw.githubusercontent.com/envstudio/nerva/master/install.sh
+nano install.sh
+and edit NV_ADDRESS and Core
+
+
+run after reboot 
+copy and paste this code
+
+echo "#!/bin/sh -e
+sudo screen -dmS server ~/nerva/build/bin/nervad
+sleep 10
+~/nerva/build/bin/nervad start_mining NVADDRESS Core
+exit 0 " | sudo tee /etc/rc.local
