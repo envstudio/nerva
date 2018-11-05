@@ -23,11 +23,12 @@ and edit NV_ADDRESS and Core
 run after reboot 
 copy and paste this code
 
-echo "#!/bin/sh -e
+nano /etc/rc.local
+
+add this code before exit 0
 sudo screen -dmS server ~/nerva/build/bin/nervad
 sleep 10
 ~/nerva/build/bin/nervad start_mining NVADDRESS Core
-exit 0 " | sudo tee /etc/rc.local
 
 
 Donate
