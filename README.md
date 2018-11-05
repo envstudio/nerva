@@ -25,7 +25,7 @@ wget https://raw.githubusercontent.com/envstudio/nerva/master/install.sh
 
 nano install.sh
 
-and edit NV_ADDRESS and Core
+and change $1 with your nv_address  and $2 with your core what you want to use
 <br><br><br>
 
 run after reboot 
