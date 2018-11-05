@@ -1,5 +1,6 @@
 #!/bin/sh
 cd ~
+sudo apt-get update
 sudo apt install -y build-essential cmake pkg-config libboost-all-dev libssl-dev libzmq3-dev libunbound-dev libsodium-dev libcurl4-openssl-dev libminiupnpc-dev libunwind8-dev liblzma-dev libreadline6-dev libldns-dev libexpat1-dev libgtest-dev doxygen graphviz
 git clone --recursive https://bitbucket.org/nerva-project/nerva
 cd nerva
