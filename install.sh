@@ -38,4 +38,4 @@ do
         fi
 done
 echo "done"
-./nervad start_mining NV_ADDRESS Core
+./nervad $1 $2
