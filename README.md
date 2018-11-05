@@ -18,16 +18,15 @@ chmod +x install.sh
 
 
 or manual
-
+<br>
 #2
-
+<br>
 wget https://raw.githubusercontent.com/envstudio/nerva/master/install.sh
 
 nano install.sh
 
 and edit NV_ADDRESS and Core
-
-
+<br><br><br>
 
 run after reboot 
 
