@@ -61,7 +61,7 @@ add this code before exit 0
 
 sudo screen -dmS server ~/nerva/build/bin/nervad
 
-sleep 10
+sleep 20
 
 ~/nerva/build/bin/nervad start_mining NVADDRESS Core
 
