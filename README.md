@@ -11,10 +11,17 @@ run with root
 #1
 
 wget https://raw.githubusercontent.com/envstudio/nerva/master/install.sh
+or 
+wget https://raw.githubusercontent.com/envstudio/nerva/master/nerva.sh
 
 chmod +x install.sh
+or
+chmod +x nerva.sh
+<br>
 
 ./install.sh NV_ADDRESS COre
+./nerva.sh NV_ADDRESS COre
+
 <br><br>
 
 or manual
@@ -22,10 +29,18 @@ or manual
 #2
 <br>
 wget https://raw.githubusercontent.com/envstudio/nerva/master/install.sh
+or
+wget https://raw.githubusercontent.com/envstudio/nerva/master/nerva.sh
 
 nano install.sh
+nano nerva.sh
 
 and change $1 with your nv_address  and $2 with your core what you want to use
+<br><br>
+then
+chmod +x nerva.sh or chmod +x install.sh
+./install.sh or nerva.sh
+
 <br><br><br>
 
 run after reboot 
