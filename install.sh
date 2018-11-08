@@ -39,4 +39,4 @@ do
         fi
 done
 echo "done"
-./nervad $1 $2
+./nervad start_mining $1 $2
